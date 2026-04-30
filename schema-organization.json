@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://worknoon.com/#organization",
+      "name": "Worknoon",
+      "url": "https://worknoon.com",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://worknoon.com/#logo",
+        "url": "https://worknoon.mackvngtech.com/wp-content/uploads/2026/04/Group-41-3-1.png",
+        "contentUrl": "https://worknoon.mackvngtech.com/wp-content/uploads/2026/04/Group-41-3-1.png",
+        "caption": "Worknoon Logo"
+      },
+      "image": {
+        "@id": "https://worknoon.com/#logo"
+      },
+      "description": "Worknoon is a remote job board connecting talented professionals with top startup opportunities worldwide.",
+      "foundingDate": "2023",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressCountry": "NG"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "careers@worknoon.com",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://x.com/worknoon",
+        "https://www.linkedin.com/company/worknoonhq",
+        "https://www.facebook.com/share/1A1S1YfrYU/",
+        "https://www.instagram.com/worknoonhq/"
+      ],
+      "founder": {
+        "@id": "https://worknoon.com/#founder"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://worknoon.com/#founder",
+      "name": "Sam Ojei",
+      "jobTitle": "Founder & CEO",
+      "url": "https://www.linkedin.com/in/sam-ojei-6166ba192/",
+      "worksFor": {
+        "@id": "https://worknoon.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/sam-ojei-6166ba192/",
+        "https://samojei.com/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://worknoon.com/#website",
+      "url": "https://worknoon.com",
+      "name": "Worknoon",
+      "description": "Find your next remote startup job on Worknoon.",
+      "publisher": {
+        "@id": "https://worknoon.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://worknoon.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
