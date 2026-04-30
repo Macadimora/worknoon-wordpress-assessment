@@ -2,9 +2,8 @@
 
 **Submitted by:** Adimora Macben Chidozie  
 **Role:** WordPress Developer (SEO + Systems Specialist)  
-**Live Site:** https://worknoon.mackvngtech.com  
-**Demo Video:** [Insert Loom/YouTube link here]  
-**Submission Date:** April 2026
+**Live Site:** https://worknoon.mackvngtech.com   
+**Submission Date:01 May 2026
 
 ---
 
